@@ -228,52 +228,46 @@ public class Player_Controls : MonoBehaviour
     // Identifies tile colour and sets bool values accordingly.
     void CheckColour()
     {
-        if (player[0].tag == "Column_1")
+        if (clone1[0].tag == "Red")
         {
-            if (clone1[0].tag == "Red")
-            {
-                red1 = true;
-                amber1 = false;
-                green1 = false;
-            }
-
-            if (clone1[0].tag == "Amber")
-            {
-                red1 = false;
-                amber1 = true;
-                green1 = false;
-            }
-
-            if (clone1[0].tag == "Green")
-            {
-                red1 = false;
-                amber1 = false;
-                green1 = true;
-            }
+            red1 = true;
+            amber1 = false;
+            green1 = false;
         }
 
-        if (player[1].tag == "Column_2")
+        if (clone1[0].tag == "Amber")
         {
-            if (clone2[0].tag == "Red")
-            {
-                red2 = true;
-                amber2 = false;
-                green2 = false;
-            }
+            red1 = false;
+            amber1 = true;
+            green1 = false;
+        }
 
-            if (clone2[0].tag == "Amber")
-            {
-                red2 = false;
-                amber2 = true;
-                green2 = false;
-            }
+        if (clone1[0].tag == "Green")
+        {
+            red1 = false;
+            amber1 = false;
+            green1 = true;
+        }
 
-            if (clone2[0].tag == "Green")
-            {
-                red2 = false;
-                amber2 = false;
-                green2 = true;
-            }
+        if (clone2[0].tag == "Red")
+        {
+            red2 = true;
+            amber2 = false;
+            green2 = false;
+        }
+
+        if (clone2[0].tag == "Amber")
+        {
+            red2 = false;
+            amber2 = true;
+            green2 = false;
+        }
+
+        if (clone2[0].tag == "Green")
+        {
+            red2 = false;
+            amber2 = false;
+            green2 = true;
         }
     }
 

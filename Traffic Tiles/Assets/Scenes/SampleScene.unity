@@ -167,8 +167,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBar: {fileID: 1347446238}
-  timeAdd: 2
-  timeLeft: 0
+  timeAdd: 0.8
+  timeLeft: 4
   timeMax: 4
 --- !u!1 &74999970
 GameObject:
@@ -1691,7 +1691,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 136, y: -705}
+  m_AnchoredPosition: {x: 135, y: -705}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1390659020
@@ -1716,18 +1716,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 50
+    m_FontSize: 52
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 3
-    m_MaxSize: 50
+    m_MaxSize: 52
     m_Alignment: 0
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 007
+  m_Text: 0
 --- !u!222 &1390659021
 CanvasRenderer:
   m_ObjectHideFlags: 0

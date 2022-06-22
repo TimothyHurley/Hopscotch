@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 3440
     height: 1357
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 9}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 369, y: 271}
   m_MaxSize: {x: 14003, y: 10021}
   vertical: 0
-  controlID: 17
+  controlID: 141
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -94,8 +94,8 @@ MonoBehaviour:
     y: 0
     width: 603
     height: 791
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 21}
   m_Panes:
   - {fileID: 21}
@@ -122,10 +122,10 @@ MonoBehaviour:
     y: 30
     width: 3440
     height: 1307
-  m_MinSize: {x: 880, y: 492}
-  m_MaxSize: {x: 18003, y: 14042}
+  m_MinSize: {x: 881, y: 492}
+  m_MaxSize: {x: 18004, y: 14042}
   vertical: 0
-  controlID: 75
+  controlID: 213
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,8 +145,8 @@ MonoBehaviour:
     y: 0
     width: 697
     height: 1307
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -171,8 +171,8 @@ MonoBehaviour:
     y: 0
     width: 679
     height: 791
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -303,7 +303,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 492}
   m_MaxSize: {x: 14003, y: 14042}
   vertical: 1
-  controlID: 84
+  controlID: 74
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -329,7 +329,7 @@ MonoBehaviour:
   m_MinSize: {x: 605, y: 221}
   m_MaxSize: {x: 12005, y: 4021}
   vertical: 0
-  controlID: 85
+  controlID: 75
 --- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -453,14 +453,14 @@ MonoBehaviour:
   m_LastFolders:
   - Assets/Scenes
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\timot\Desktop\Traffic Tiles
+  m_LastProjectPath: C:\Users\timot\Desktop\GitGood\Hopscotch\Traffic Tiles
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 42400000
-    m_LastClickedID: 16450
-    m_ExpandedIDs: 000000003640000000ca9a3b
+    m_SelectedIDs: e43f0000
+    m_LastClickedID: 16356
+    m_ExpandedIDs: 00000000d43f000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -488,7 +488,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000036400000
+    m_ExpandedIDs: 00000000d43f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -609,9 +609,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 4c400000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 00b7ffff94b7ffffaab7ffff02b8ffff4cb8ffff62b8ffffacb8ffffead8ffff44e7ffff16f9ffff50fbffff0a41000030410000424100005e4200007a420000
+      m_ExpandedIDs: f6a9ffffccaaffff04abffff18bfffff58d0ffffe0e7ffffeaeeffff42f2ffffd8f4ffff02f5ffff64f7ffff94f7ffff34faffff6cfaffff4cfbffff6c3f0000f24000002c4200001a47000034470000e04700000c4800001c48000098480000b4480000be480000c84800007e490000ba490000f44c0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -724,9 +724,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0.010168569, y: 0.06504776, z: 0.0006629634, w: -0.99783015}
   m_Size:
-    m_Target: 110.76614
+    m_Target: 214.36375
     speed: 2
-    m_Value: 110.76614
+    m_Value: 214.36375
   m_Ortho:
     m_Target: 0
     speed: 2
