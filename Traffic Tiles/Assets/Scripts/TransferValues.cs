@@ -15,6 +15,11 @@ public class TransferValues : MonoBehaviour
         {
             DontDestroyOnLoad(this.gameObject);
         }
+
+        else
+        {
+            Destroy(this.gameObject);
+        }
     }
 
     // Gets value for scoreFinal from Player_Controls script.
